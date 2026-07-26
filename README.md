@@ -193,10 +193,9 @@ aws-serverless-data-pipeline/
 │   └── StartAggregationLambda.py
 │
 ├── glue/
-│   ├── EcommerceSalesETLJob.py
-│   ├── EcommerceSalesTransformationJob.py
-│   └── EcommerceSalesAggregationJob.py
-
+    ├── EcommerceSalesETLJob.py
+    ├── EcommerceSalesTransformationJob.py
+    └── EcommerceSalesAggregationJob.py
 ```
 
 ---
