@@ -1,0 +1,15 @@
+Rows Read : 5007
+{
+    "Rows Read": 5007,
+    "Duplicate Rows Removed": 7,
+    "Null Rows Removed": 4,
+    "Invalid Quantity Removed": 1,
+    "Invalid Revenue Removed": 0,
+    "Invalid Unit Price Removed": 0,
+    "Invalid Rating Removed": 0,
+    "Rows Written": 4995
+}
+
+Data Quality Report Saved
+Processed Parquet Written Successfully
+Glue ETL Job Completed Successfully
