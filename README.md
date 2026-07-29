@@ -199,6 +199,9 @@ aws-ecommerce-sales-data-pipeline/
 ├── architecture/
 │   |── architecture.png
 │
+|
+|__ sample-output
+|
 └── docs/
     ├── project-report.pdf
     └── setup-guide.md
