@@ -71,9 +71,9 @@ The **AWS Serverless Data Pipeline for E-commerce Sales Analytics** is an end-to
 
 ---
 
-# Architecture
+# WorkFlow
 
-# Architecture
+# Workflow
 
 ```text
 Upload CSV File
@@ -177,14 +177,10 @@ Amazon Athena
 ---
 
 # Repository Structure
-
 ```
-aws-serverless-data-pipeline/
+
+aws-ecommerce-sales-data-pipeline/
 │
-├── README.md
-|
-├── dataset/
-│   └── ecommerce_sales_analytics.csv
 │
 ├── lambda/
 │   ├── EcommercePipelineValidationLambda.py
@@ -193,10 +189,19 @@ aws-serverless-data-pipeline/
 │   └── StartAggregationLambda.py
 │
 ├── glue/
-    ├── EcommerceSalesETLJob.py
-    ├── EcommerceSalesTransformationJob.py
-    └── EcommerceSalesAggregationJob.py
-```
+│   ├── EcommerceSalesETLJob.py
+│   ├── EcommerceSalesTransformationJob.py
+│   └── EcommerceSalesAggregationJob.py
+│
+├── dataset/
+│   └── ecommerce_sales_analytics.csv
+│
+├── architecture/
+│   |── architecture.png
+│
+└── docs/
+    ├── project-report.pdf
+    └── setup-guide.md
 
 ---
 
