@@ -70,9 +70,6 @@ The **AWS Serverless Data Pipeline for E-commerce Sales Analytics** is an end-to
 - Year & Month Partitioning
 
 ---
-
-# WorkFlow
-
 # Workflow
 
 ```text
